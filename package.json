@@ -1,53 +1,15 @@
 {
-  "name": "jianshu",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "antd": "^3.15.2",
-    "axios": "^0.18.0",
-    "babel-plugin-import": "^1.11.0",
-    "barbel": "^0.0.9",
-    "echarts": "^4.2.1",
-    "immutable": "^4.0.0-rc.12",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-loadable": "^5.5.0",
-    "react-redux": "^6.0.1",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
-    "react-transition-group": "^2.6.1",
-    "redux": "^4.0.1",
-    "redux-immutable": "^4.0.0",
-    "redux-thunk": "^2.3.0",
-    "styled-components": "^4.1.3"
-  },
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "my express blog",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "babel": {
-    "presets": [
-      "react-app"
-    ],
-    "plugins": [
-      [
-        "import",
-        {
-          "libraryName": "antd",
-          "style": "css"
-        }
-      ]
-    ]
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "author": "ketingliu",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.14.0"
+  }
 }
