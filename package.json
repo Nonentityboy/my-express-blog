@@ -9,7 +9,26 @@
   "author": "ketingliu",
   "license": "ISC",
   "dependencies": {
+    "config-lite": "^2.1.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
     "ejs": "^3.0.1",
-    "express": "^4.14.0"
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-winston": "^4.0.2",
+    "marked": "^0.8.0",
+    "moment": "^2.24.0",
+    "mongolass": "^4.4.6",
+    "objectid-to-timestamp": "^1.3.0",
+    "sha1": "^1.1.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
   }
 }
